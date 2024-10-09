@@ -4,32 +4,54 @@
 	<meta charset="UTF-8">
   	<title>Primeira Página</title>
   <style>
+    body {
+        background-color: rgb(243, 255, 249);
+    }
     h1 {
-      background-color: black; color: white
-    }
-    ul {
-      list-style-type: disc; list-style-position: outside; border-style: dotted red;
-    }
-    .centralizar{
+      background-color: black; 
+      color: white;
       text-align: center;
-      #tabela1 {
-        background‐color: lightblue;
+    }
+    li {
+      background-color: rgb(255, 233, 228);
+      list-style-type: disc; 
+      list-style-position: outside; 
+      border: 1px dotted red;
+      margin: 5px;
+    }
+    table{
+        margin-left:40%;
+    }
+      th{
+        background-color: rgb(211, 211, 248);
         padding: 2px;
+        text-align: center;
+		border: 1px dashed blue;
       }
-      #tabela1, #tabela1, #tabela1 th{
-border: 2px dashed blue;
+      td{
+        background-color: aliceblue;
+        text-align: center;
+        border: 1px dashed blue;
+      }
+      #vermelho{
+        color:red;
+      }
+      a {
+        color: #800000;
+        font-weight:bold;
+        text-decoration: none;
       }
   </style>
   </head>
   <body>
-   <h1 class="centralizar">Minha Página</h1>
+   <h1 class="centralizado">Minha Página</h1>
     <ul>
       <li>Item 1</li>
       <li>Item 2</li>
       <li>Item 3</li>
   </ul>
       
-      <table id="tabela1";class="centralizar";>
+      <table id:="tabela";>
        <thead>
          <tr>
          <th>Cabeçalho 1</th>
@@ -40,11 +62,12 @@ border: 2px dashed blue;
        <tbody>
           <tr>
           <td>Célula 1</td>
-          <td id=>Célula 2</td>
+          <td id="vermelho">Célula 2</td>
           <td>Célula 3</td>
         </tr>
        </tbody>
       </table>
-    
-  </body>
+    <br>
+    Isto é um link para o Google: <a href="https://www.google.com">Google</a>
+  </body>
 </html>
