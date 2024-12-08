@@ -1,0 +1,140 @@
+header {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.header-conteudo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  font-size: 2.4rem;
+}
+
+#logo a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+#logo a span {
+  display: block;
+}
+
+.buscar {
+  display: flex;
+  width: 40%;
+}
+
+.buscar__input {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 44px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 6px;
+}
+
+.buscar__botao {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #e9e9e9;
+}
+
+.buscar__botao svg {
+  width: 60%;
+  height: 60%;
+}
+
+.buscar__input-container {
+  position: relative;
+  width: 100%;
+}
+
+.menu {
+  margin-top: 20px;
+
+  background-color: rgb(224, 59, 84);
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.menu-list__item a {
+  text-decoration: none;
+  display: block;
+  font-size: 1.8rem;
+  height: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.menu-list__item:hover {
+  background-color: rgb(151, 8, 8);
+}
+
+#carrinho-link {
+  position: relative;
+}
+
+.carrinho_notificacao {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  right: 2px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.cart__button {
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width: 900px) {
+  .menu-list {
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #carrinho-link svg {
+    width: 40px;
+  }
+
+  .carrinho_notificacao {
+    width: 16px;
+    height: 16px;
+    bottom: 16px;
+    right: 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .buscar {
+    display: none;
+  }
+}

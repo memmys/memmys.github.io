@@ -1,0 +1,59 @@
+main {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 400px;
+  display: block;
+}
+
+.nome {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.preco {
+  display: block;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.botao-comprar {
+  height: 44px;
+  width: 200px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: white;
+  display: block;
+  margin-top: 40px;
+}
+
+.botao-comprar {
+  background-color: rgb(70, 59, 224);
+}
+
+.botao-comprar:hover {
+  background-color: rgb(53, 45, 173);
+}
+
+.conteudo {
+  width: 40%;
+}
+
+.descricao {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+@media (max-width: 1024px) {
+  .conteudo {
+    width: 80%;
+  }
+}

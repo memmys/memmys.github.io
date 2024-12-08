@@ -1,0 +1,66 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80%;
+}
+
+h1 {
+  margin-top: 60px;
+}
+
+table {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+th {
+  text-align: start;
+}
+
+tr {
+  height: 40px;
+}
+
+.cabecalho__quantidade {
+  text-align: center;
+}
+
+.quantidade {
+  text-align: center;
+}
+
+.botao-carrinho {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.botao-acao {
+  height: 44px;
+  width: 200px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.btn-finalizar,
+.botao-add {
+  background-color: rgb(70, 59, 224);
+  margin-bottom: 20px;
+}
+
+.btn-cancelar,
+.botao-remove {
+  background-color: rgb(224, 59, 84);
+}
+
+.total {
+  margin-bottom: 40px;
+}
