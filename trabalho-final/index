@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="header-conteudo container">
+          <span id="logo"
+            ><a href="./index.html">Emilly's <span> Perfumes </span></a></span
+          >
+          <form class="buscar">
+            <div class="buscar__input-container">
+              <input class="buscar__input" type="text" placeholder="Buscar" />
+              <button
+                class="buscar__botao"
+                type="submit"
+                aria-label="Buscar Produto"
+              >
+                <svg
+                  width="64px"
+                  height="64px"
+                  viewBox="0 -0.5 21 21"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>search_left [#1506]</title>
+                    <desc>Created with Sketch.</desc>
+                    <defs></defs>
+                    <g
+                      id="Page-1"
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                    >
+                      <g
+                        id="Dribbble-Light-Preview"
+                        transform="translate(-219.000000, -280.000000)"
+                        fill="#000000"
+                      >
+                        <g
+                          id="icons"
+                          transform="translate(56.000000, 160.000000)"
+                        >
+                          <path
+                            d="M184,138.586 L182.5153,140 L176.57545,134.343 L178.06015,132.929 L184,138.586 Z M170.35,132 C167.45515,132 165.1,129.757 165.1,127 C165.1,124.243 167.45515,122 170.35,122 C173.24485,122 175.6,124.243 175.6,127 C175.6,129.757 173.24485,132 170.35,132 L170.35,132 Z M170.35,120 C166.2907,120 163,123.134 163,127 C163,130.866 166.2907,134 170.35,134 C174.4093,134 177.7,130.866 177.7,127 C177.7,123.134 174.4093,120 170.35,120 L170.35,120 Z"
+                            id="search_left-[#1506]"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </form>
+          <a id="carrinho-link" href="./carrinho.html" class="cart__button">
+            <svg
+              width="64px"
+              height="64px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M19.5 9.5L18.7896 6.89465C18.5157 5.89005 18.3787 5.38775 18.0978 5.00946C17.818 4.63273 17.4378 4.34234 17.0008 4.17152C16.5619 4 16.0413 4 15 4M4.5 9.5L5.2104 6.89465C5.48432 5.89005 5.62128 5.38775 5.90221 5.00946C6.18199 4.63273 6.56216 4.34234 6.99922 4.17152C7.43808 4 7.95872 4 9 4"
+                  stroke="#9e004c"
+                  stroke-width="1.5"
+                ></path>
+                <path
+                  d="M9 4C9 3.44772 9.44772 3 10 3H14C14.5523 3 15 3.44772 15 4C15 4.55228 14.5523 5 14 5H10C9.44772 5 9 4.55228 9 4Z"
+                  stroke="#9e004c"
+                  stroke-width="1.5"
+                ></path>
+                <path
+                  d="M4.5 18L12 9M19.5 18L12.5 9.5M4.5 10L12 21L19.5 10"
+                  stroke="#9e004c"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M3.864 16.4552C4.40967 18.6379 4.68251 19.7292 5.49629 20.3646C6.31008 21 7.435 21 9.68486 21H14.3155C16.5654 21 17.6903 21 18.5041 20.3646C19.3179 19.7292 19.5907 18.6379 20.1364 16.4552C20.9943 13.0234 21.4233 11.3075 20.5225 10.1538C19.6217 9 17.853 9 14.3155 9H9.68486C6.14745 9 4.37875 9 3.47791 10.1538C2.94912 10.831 2.87855 11.702 3.08398 13"
+                  stroke="#9e004c"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                ></path>
+              </g>
+            </svg>
+            <span class="carrinho_notificacao">2</span>
+          </a>
+        </div>
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-list__item"><a href="#">Perfumes Femininos</a></li>
+            <li class="menu-list__item"><a href="#">Perfumes Masculinos</a></li>
+            <li class="menu-list__item"><a href="#">Perfumes Infantis</a></li>
+            <li class="menu-list__item"><a href="#">Perfumes Unissex</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div>
+        <ul class="vitrine">
+          <li class="produto">
+            <a href="./feminino.html">
+              <img class="produto__img" src="./assets/feminino.jpg" />
+              <h2 class="produto__nome">
+                Botica 214 Fiji Paradise Floral Especiado Eau De Parfum 75ml
+              </h2>
+              <span class="produto__preco">R$149,90</span>
+            </a>
+          </li>
+          <li class="produto">
+            <a href="./masculino.html">
+              <img class="produto__img" src="./assets/masculino.jpg" />
+              <h2 class="produto__nome">
+                Botica 214 Fiji Paradise Fougère Especiado Eau De Parfum 90ml
+              </h2>
+              <span class="produto__preco">R$149,90</span>
+            </a>
+          </li>
+          <li class="produto">
+            <a href="#">
+              <img class="produto__img" src="./assets/infantil.jpg" />
+              <h2 class="produto__nome">
+                Colônia Infantil Baby Boti Nana Neném 100ml
+              </h2>
+              <span class="produto__preco">R$89,90</span>
+            </a>
+          </li>
+          <li class="produto">
+            <a href="#">
+              <img class="produto__img" src="./assets/unissex.jpg" />
+              <h2 class="produto__nome">
+                Insensatez Desodorante Colônia 100ml
+              </h2>
+              <span class="produto__preco">R$119,90</span>
+            </a>
+          </li>
+          <li class="produto">
+            <a href="#">
+              <img class="produto__img" src="./assets/blend.webp" />
+              <h2 class="produto__nome">The Blend Eau de Parfum 100ml</h2>
+              <span class="produto__preco">R$329,90</span>
+            </a>
+          </li>
+          <li class="produto">
+            <a href="#">
+              <img class="produto__img" src="./assets/arbo.webp" />
+              <h2 class="produto__nome">Arbo Desodorante Colônia 100ml</h2>
+              <span class="produto__preco">R$ 164,90</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
