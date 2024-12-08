@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/carrinho.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Carrinho</h1>
+
+        <table>
+          <thead>
+            <th>Item</th>
+            <th>Preço</th>
+            <th class="cabecalho__quantidade">Quantidade</th>
+            <th></th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                Botica 214 Fiji Paradise Floral Especiado Eau De Parfum 75ml
+              </td>
+              <td>R$149,90</td>
+              <td class="quantidade">2</td>
+              <td>
+                <button class="botao-carrinho botao-add" type="button">
+                  +
+                </button>
+                <button class="botao-carrinho botao-remove" type="button">
+                  -
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>Colônia Infantil Baby Boti Nana Neném 100ml</td>
+              <td>R$89,90</td>
+              <td class="quantidade">1</td>
+              <td>
+                <button class="botao-carrinho botao-add" type="button">
+                  +
+                </button>
+                <button class="botao-carrinho botao-remove" type="button">
+                  -
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 class="total">Valor Total: R$ 389,70</h3>
+
+        <div>
+          <button class="botao-acao btn-finalizar">Finalizar Compra</button>
+          <button class="botao-acao btn-cancelar">Voltar</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
